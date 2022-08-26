@@ -96,4 +96,5 @@ bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value)
 bst_t *bst_remove(bst_t *root, int value)
 {
 	return (bst_remove_recursive(root, root, value));
+
 }
